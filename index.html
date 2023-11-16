@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>COOLBRAND</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;500;600;700;800&family=Inter:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Librerías -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    <!-- FancyBox -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    <!-- WhatsApp -->
+    <link rel="stylesheet" type="text/css" href="vendors/whatsapp-click-to-chat/venom-button.css">
+    <link rel="stylesheet" type="text/css" href="vendors/whatsapp-click-to-chat/venom-button.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body">
+    <div class="bg-white p-0">
+        <!-- Navbar Empieza -->
+        <header class="container position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/CoolBrand.svg" alt="Logo" href="index.html">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <id class='bx bx-menu'></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active hero-font">Inicio</a>
+                        <a href="productos.html" class="nav-item nav-link hero-font">Productos</a>
+                        <a href="quienessomos.html" class="nav-item nav-link hero-font">Sobre Nosotros</a>
+                        <a href="faqs.html" class="nav-item nav-link hero-font">Preguntas frecuentes</a>
+                        <a href="contacto.html" class="nav-item nav-link hero-font">Contacto</a>
+                    </div>
+                    <a href="productos.html" class="btn text-white py-2 px-4">MI COMPRA</a>
+                </div>
+            </nav>
+        </header>
+        <!-- Navbar Termina -->
+
+        <div class="container-fluid py-5 hero-header">
+            <div class="row pt-5 align-items-center g-5">
+                <div class="text-center">
+                    <h1 class="hero-font display-3 text-white animated ">La moda es tuya</h1>
+                    <h3 class="hero-font animated ">Encontrá tu estilo y no lo pierdas nunca</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAROUSEL home-->
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img src="img/IMG_0674.jpg" alt="Logo" href="index.html">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p class="opacity-75">Some representative placeholder content for the first slide of the
+                                carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/IMG_0675.jpg" alt="Logo" href="index.html">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/IMG_0676.JPG" alt="Logo" href="index.html">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- FIN CAROUSEL home-->
+    <!-- CATEGORIAS HOME -->
+    <section class="container py-5">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="ff-secondary text-center fw-normal">TODAS NUESTRAS CATEGORÍAS</h3>
+                <h1 class="section-h1 mb-5">No necesitás elegir, todas son para vos</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <figure><img src="img/buzo.JPG" class="card-img-top" alt=""></a></figure>
+                            <h3 class="hero-font text-dark">HOMBRES</h3>
+                            <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <figure><img src="img/IMG_0663.JPG" class="card-img-top" alt=""></figure>
+                            <h3 class="hero-font text-dark">MUJERES</h3>
+                            <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <figure><img src="img/IMG_0665.JPG" class="card-img-top" alt=""></figure>
+                            <h3 class="hero-font text-dark">NO GENDER</h3>
+                            <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <figure><img src="img/bag.JPG" class="card-img-top" alt=""></figure>
+                                <h3 class="hero-font text-dark">BAGS</h3>
+                                <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <figure><img src="img/lentes.jpg" class="card-img-top" alt=""></figure>
+                                <h3 class="hero-font text-dark">GAFAS</h3>
+                                <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <figure><img src="img/IMG_0673.jpg" class="card-img-top" alt=""></figure>
+                                <h3 class="hero-font text-dark">JOYERIA</h3>
+                                <p><a class="btn text-white" href="productos.html">VER MAS</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- CATEGORIAS HOME -->
+    <!-- TESTIMONIOS -->
+    <section>
+        <div class="text-center hero-font">
+            <h3 class="ff-secondary text-center fw-normal">¡TU OPINION NOS IMPORTA!</h3>
+            <h1 class="section-h1 mb-5">INSPIRATE DE LOS DEMÁS</h1>
+        </div>
+        <div class="container text-center py-5 hero-font">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <img src="img/IMG_0664.JPG" class="rounded-circle" width="100%" height="100%" alt="Logo"
+                        href="index.html">
+                    <h2 class="fw-normal ff-secondary p-3">ALEXIS</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">Comprar estilo &raquo;</a></p>
+                </div>
+                <div class="col-3">
+                    <img src="img/IMG_0664.JPG" class="rounded-circle" width="100%" height="100%" alt="Logo"
+                        href="index.html">
+                    <h2 class="fw-normal ff-secondary p-3">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">Comprar estilo &raquo;</a></p>
+                </div>
+                <div class="col-3">
+                    <img src="img/IMG_0664.JPG" class="rounded-circle" width="100%" height="100%" alt="Logo"
+                        href="index.html">
+                    <h2 class="fw-normal ff-secondary p-3">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">Comprar estilo &raquo;</a></p>
+                </div>
+                <div class="col-3">
+                    <img src="img/IMG_0664.JPG" class="rounded-circle" width="100%" height="100%" alt="Logo"
+                        href="index.html">
+                    <h2 class="fw-normal ff-secondary p-3">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is
+                        the first column.</p>
+                    <p><a class="btn btn-secondary" href="#">Comprar estilo &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIOS termina -->
+
+    <!-- UBICACION -->
+    <section class="container py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="ff-secondary text-center fw-normal">Experiencia personalizada</h3>
+                <h1 class="section-h1 mb-5">Visitanos y te asesoramos</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 rounded-start-border">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8177819939015!2d-58.47152922565528!3d-34.58347695642715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb60ca6f40001%3A0xcbafdce7629dfe43!2sCool%20Brand%20S.r.l.!5e0!3m2!1ses-419!2sar!4v1700101458969!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 bg-img d-flex align-items-center justify-content-center rounded-end bg-dark">
+                    <div class="img-fluid wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="" alt="">
+                        <p class="text-white text-center hero-font display-3">Animate</p>
+                        <a href="contacto.html">
+                            <button class="btn text-white py-3 px-3">¡Quiero agendar una cita!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- UBICACION TERMINA -->
+
+    <!-- GALERIA IMÁGENES -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="">
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/2/1600x1200"
+                        data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                        <img src="https://lipsum.app/id/2/200x150" width="200" height="150" alt="" />
+                    </a>
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+                        <img src="https://lipsum.app/id/3/200x150" width="200" height="150" alt="" />
+                    </a>
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1600x1200">
+                        <img src="https://lipsum.app/id/4/200x150" width="200" height="150" alt="" />
+                    </a>
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1600x1200">
+                        <img src="https://lipsum.app/id/4/200x150" width="200" height="150" alt="" />
+                    </a>
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+                        <img src="https://lipsum.app/id/3/200x150" width="200" height="150" alt="" />
+                    </a>
+
+                    <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1600x1200">
+                        <img src="https://lipsum.app/id/4/200x150" width="200" height="150" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GALERIA IMÁGENES TERMINA-->
+
+
+    <!-- Whatsapp-->
+    <div id="guasap"></div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-dark footer pt-5 mt-5 wow fadeIn hero-font" data-wow-delay="0.1s">
+        <div class="container py-2">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-start fw-normal mb-4"><strong>Suscribite</strong></h3>
+                    <p>¡Todas las novedades!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control w-100 p-3 " type="text" placeholder="Tu mail">
+                        <button type="button"
+                            class="btn btn-primary p-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-start fw-normal mb-4"><strong>Seguinos</strong></h3>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-instagram-alt'></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-facebook'></i></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-twitter'></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class='bx bxl-twitch'></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-start fw-normal mb-4"><strong>Categorías</strong></h3>
+                    <p>
+                    <ul>
+                        <li>
+                            <a href="productos.html" class="text-dark">Productos</a>
+                        </li>
+                        <li>
+                            <a href="quienessomos.html" class="text-dark">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="faqs.html" class="text-dark">Preguntas Frecuentes</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html" class="text-dark">Contacto</a>
+                        </li>
+                    </ul>
+                    </p>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-start fw-normal mb-4"><strong>Contacto</strong></h3>
+                    <p class="mb-2">Av. Triunvirato 3332, CABA, Argentina</p>
+                    <p class="mb-2"></i>+54 11 3789 7625</p>
+                    <p class="mb-2">info@coolbrand.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">COOLBRAND</a> |
+                        Todos los derechos reservados.
+                        <p class="float-end"><a class="" href="#">Back to top</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer termina -->
+    </div>
+
+    <!-- Javascript -->
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- FancyBox -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- WhatsApp -->
+    <script type="text/javascript" src="vendors/whatsapp-click-to-chat/venom-button.js"></script>
+    <script type="text/javascript" src="vendors/whatsapp-click-to-chat/venom-button.min.js"></script>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="java/whatsapp.js"></script>
+
+    </body>
+
+</html>
