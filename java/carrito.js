@@ -19,7 +19,7 @@ productos[2] = [];
 productos[2]['Nombre'] = 'Jean Black';
 productos[2]['Precio'] = 19000;
 productos[2]['Descripcion'] = 'Jean negro con roturas de mujer';
-productos[2]['Imagen'] = 'jeanblack.jpg';
+productos[2]['Imagen'] = 'jeanblack.jpeg';
 
 productos[3] = [];
 productos[3]['Nombre'] = 'Top Coffee';
