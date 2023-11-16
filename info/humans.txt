@@ -1,0 +1,3 @@
+Alumnos: Falcon Juan Pablo, Pla Micaela, Perez Franco Valentina
+Carrera: Diseño Digital
+Comision: 1º2ºB
